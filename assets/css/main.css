@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -1477,7 +1478,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #50a1cf;
+			background-color: #363a42;
 		}
 
 		input[type="button"]:active,
@@ -1485,7 +1486,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3081af;
+			background-color: #363a42;
 		}
 
 		input[type="button"].medium,
@@ -1511,7 +1512,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #464a52;
+			background-color: #363a42;
 		}
 
 			input[type="button"].alt:hover,
@@ -1519,7 +1520,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #565a62;
+				background-color: #363a42;
 			}
 
 			input[type="button"].alt:active,
@@ -1784,6 +1785,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+
 		text-align: center;
 		width: 940px;
 		margin: 0 auto;
@@ -1870,6 +1872,7 @@ input, select, textarea {
 		background-size: 100% 100%, 100% 15em, auto auto;
 		background-position: top left, top center, top left;
 		padding: 7em 0 7em 0;
+		text-align: center;
 	}
 
 	.wrapper {
